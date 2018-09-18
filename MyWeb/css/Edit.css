@@ -1,0 +1,129 @@
+	*{	text-decoration: none;
+		list-style: none;
+		word-break: break-all;
+	}
+	body{
+		background-image: url("../images/Editbc.png");
+		color:#7a4f1b;
+	}
+	.top{
+		height: 45px;
+		background-color: #58525E;
+		margin: -10px -10px 2px -10px;
+	}
+	.top .top_img{
+		height: 45px;
+		width: 960px;
+		margin: 0 auto;
+		background-image: url("../images/head.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	.user_info{
+		height: 80px;
+		width: 960px;
+		margin: 0 auto;
+	}
+	.user_info img{
+		height: 70px;
+		word-break: 70px;
+		float:left;
+		margin-top:10px;
+		border:solid 1px black ;
+		border-radius: 35px;
+		display: block;
+	}
+	.user_info span{
+		float:left;
+		margin-left:30px;
+		margin-top:25px;
+		font-size: 2em;
+		font-weight: bolder;
+	}
+	.format{
+		height:800px; 
+		width:960px;
+		margin: 0 auto;
+	}
+
+	#txtTitle{
+		height: 25px;
+		width: 950px;
+		padding: 5px;
+		font-size: 23px;
+		opacity:0.65;
+		font-weight: bolder;
+		box-shadow:inset 2px 2px 2px rgba(122,79,27,0.8), inset -2px -2px 2px rgba(122,79,27,0.8), 2px 2px 2px rgba(122,79,27,0.5), -2px -2px 2px rgba(122,79,27,0.5);
+	}
+	#editor{
+		font-size: 17px;
+		padding: 20px;
+		border: solid 0px;
+		opacity:0.7;
+		box-shadow:inset 5px 5px 5px rgba(122,79,27,0.8), inset -5px -5px 5px rgba(122,79,27,0.8), 5px 5px 5px rgba(122,79,27,0.5), -5px -5px 5px rgba(122,79,27,0.5);
+	}
+	.format ul{
+		background-color: #e2c8ac;
+		height: 40px;
+		border-bottom: 1px solid #0d0c0a;
+		padding-left: 0;
+	}
+	.format li{
+		display: inline-block;
+		height: 26px;
+		float: left;
+		margin:0 0 0 0px;
+		padding:7px 20px;
+		font-size: 24px;
+		font-weight: bolder;
+		font-family: KaiTi;
+		
+	}
+	li a{
+		color: #7a4f1b;
+	}
+	li:hover a{
+		color: #fff;
+	}
+	li:hover{
+		background-color: #7a4f1b;
+	}
+	.format p{
+		color:#7a4f1b;
+		border-bottom:solid 1px #5f5f5f;
+		font-weight: bolder;
+		margin: 6px 0;
+		padding: 12px 4px 2px 4px;
+	}
+	.format #editor{
+		margin-bottom: 20px; 
+	}
+	.btn_area{
+		text-align: center;
+		margin: 20px;
+	}
+	.btn{
+		background-color: #185FA7;
+		margin: 0 20px;
+		display: inline-block;
+		padding: 10px 20px;
+		font-size: 20px;
+		cursor: pointer;
+		text-align: center;   
+		outline: none;
+		color: #fff;
+		background-color: gray;
+		border: none;
+		border-radius: 15px;
+		box-shadow: 0 9px #999;
+	}
+	.btn:hover {background-color: #3e8e41}
+	.btn:active {
+	  background-color: #3e8e41;
+	  box-shadow: 0 5px #666;
+	  transform: translateY(4px);
+	}
+	#fileupload{
+		width: 500px;
+		margin: 10px;
+	}
